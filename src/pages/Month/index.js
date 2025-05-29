@@ -95,7 +95,7 @@ const Month = () => {
         </div>
         {
           dayGroup.keys.map((key)=>{
-           return <DayBill key={key} data={key} billList={dayGroup.groupData[key]} /> 
+           return <DayBill key={key} date={key} billList={dayGroup.groupData[key]} /> 
           })
         }
 

@@ -22,7 +22,7 @@ const New = () => {
    const data={
      type:billType,
      money:billType==='pay'?-money:+money,
-     date:date,
+     date:date? dayjs(date).toISOString() : dayjs().toISOString(),
      useFor:useFor
    } 
    dispatch(addBillList(data))

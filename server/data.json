@@ -95,7 +95,8 @@
       "id": "8185",
       "type": "pay",
       "money": -100,
-      "useFor": "drinks"
+      "useFor": "drinks",
+      "date": "2023-01-01T00:00:00.000Z"
     },
     {
       "id": "9088",
